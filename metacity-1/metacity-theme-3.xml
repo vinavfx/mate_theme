@@ -12,9 +12,10 @@
 
 <constant name="C_title_focused" value="rgba(226, 231, 236, 0.8)" />
 <constant name="C_title_unfocused" value="rgba(226, 231, 236, 0.5)" />
-<constant name="C_wm_bg_focused" value="#4B7AB3" />
-<constant name="C_wm_bg_unfocused" value="#1D2126" />
-<constant name="C_wm_highlight" value="#98B1D0" />
+<constant name="C_wm_highlight_focused" value="{highlight_focus_color}" />
+<constant name="C_wm_bg_focused" value="{focus_color}" />
+<constant name="C_wm_highlight_unfocused" value="{highlight_color}" />
+<constant name="C_wm_bg_unfocused" value="{color}" />
 
 <!-- window button colors -->
 
@@ -162,12 +163,12 @@
 
 <draw_ops name="titlebar_focused">
 	<rectangle color="C_wm_bg_focused" x="0" y="0" width="width" height="height" filled="true" />
-	<rectangle color="C_wm_highlight" x="0" y="0" width="width" height="1" filled="true" />
+	<rectangle color="C_wm_highlight_focused" x="0" y="0" width="width" height="1" filled="true" />
 </draw_ops>
 
 <draw_ops name="titlebar_unfocused">
 	<rectangle color="C_wm_bg_unfocused" x="0" y="0" width="width" height="height" filled="true" />
-	<rectangle color="C_wm_highlight" x="0" y="0" width="width" height="1" filled="true" />
+	<rectangle color="C_wm_highlight_unfocused" x="0" y="0" width="width" height="1" filled="true" />
 </draw_ops>
 
 <draw_ops name="titlebar_max">
