@@ -62,3 +62,6 @@
   .mate-panel-menu-bar PanelSeparator {
     color: #25282d; }
 
+entry:focus {
+  background: white; }
+
