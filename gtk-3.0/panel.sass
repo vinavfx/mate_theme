@@ -1,0 +1,56 @@
+$text_color: $b70
+
+.mate-panel-menu-bar
+    background: $b10
+    color: $text_color
+
+    #PanelApplet
+        color: $text_color
+
+        // Reloj
+        #clock-applet-button.flat.toggle
+            color: $text_color
+            border: none
+            &:hover, &:checked
+                background: none
+                color: $base
+
+
+        // Button
+        button,
+        button.toggle,
+        button.flat,
+        button.flat.toggle
+            background: none
+            background-image: none
+            border: none
+
+            color: $text_color
+
+            &:hover, &:checked, &:active
+                background: none
+                color: $base
+                border-radius: 0
+                &:hover
+                    background: mix($b10, $base, 80)
+                    color: white
+
+    // WorkSpace Applet
+    PanelApplet.wnck-applet
+        .wnck-pager
+            background: $b20
+            color: $b10
+            &:hover
+                background: mix($base, $b20, 20%)
+                color: $base
+            &:selected
+                background: mix($base, $b15, 20%)
+                color: mix($base, $b15, 70%)
+
+    PanelToplevel.horizontal.top > grid
+        border-color: $b10
+
+
+    PanelSeparator
+        color: $b15
+

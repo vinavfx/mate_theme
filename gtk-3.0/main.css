@@ -1,0 +1,58 @@
+.mate-panel-menu-bar {
+  background: #191b1f;
+  color: #aeb4bc; }
+  .mate-panel-menu-bar #PanelApplet {
+    color: #aeb4bc; }
+    .mate-panel-menu-bar #PanelApplet #clock-applet-button.flat.toggle {
+      color: #aeb4bc;
+      border: none; }
+      .mate-panel-menu-bar #PanelApplet #clock-applet-button.flat.toggle:hover, .mate-panel-menu-bar #PanelApplet #clock-applet-button.flat.toggle:checked {
+        background: none;
+        color: #4B7AB3; }
+    .mate-panel-menu-bar #PanelApplet button,
+    .mate-panel-menu-bar #PanelApplet button.toggle,
+    .mate-panel-menu-bar #PanelApplet button.flat,
+    .mate-panel-menu-bar #PanelApplet button.flat.toggle {
+      background: none;
+      background-image: none;
+      border: none;
+      color: #aeb4bc; }
+      .mate-panel-menu-bar #PanelApplet button:hover, .mate-panel-menu-bar #PanelApplet button:checked, .mate-panel-menu-bar #PanelApplet button:active,
+      .mate-panel-menu-bar #PanelApplet button.toggle:hover,
+      .mate-panel-menu-bar #PanelApplet button.toggle:checked,
+      .mate-panel-menu-bar #PanelApplet button.toggle:active,
+      .mate-panel-menu-bar #PanelApplet button.flat:hover,
+      .mate-panel-menu-bar #PanelApplet button.flat:checked,
+      .mate-panel-menu-bar #PanelApplet button.flat:active,
+      .mate-panel-menu-bar #PanelApplet button.flat.toggle:hover,
+      .mate-panel-menu-bar #PanelApplet button.flat.toggle:checked,
+      .mate-panel-menu-bar #PanelApplet button.flat.toggle:active {
+        background: none;
+        color: #4B7AB3;
+        border-radius: 0; }
+        .mate-panel-menu-bar #PanelApplet button:hover:hover, .mate-panel-menu-bar #PanelApplet button:checked:hover, .mate-panel-menu-bar #PanelApplet button:active:hover,
+        .mate-panel-menu-bar #PanelApplet button.toggle:hover:hover,
+        .mate-panel-menu-bar #PanelApplet button.toggle:checked:hover,
+        .mate-panel-menu-bar #PanelApplet button.toggle:active:hover,
+        .mate-panel-menu-bar #PanelApplet button.flat:hover:hover,
+        .mate-panel-menu-bar #PanelApplet button.flat:checked:hover,
+        .mate-panel-menu-bar #PanelApplet button.flat:active:hover,
+        .mate-panel-menu-bar #PanelApplet button.flat.toggle:hover:hover,
+        .mate-panel-menu-bar #PanelApplet button.flat.toggle:checked:hover,
+        .mate-panel-menu-bar #PanelApplet button.flat.toggle:active:hover {
+          background: #232e3d;
+          color: white; }
+  .mate-panel-menu-bar PanelApplet.wnck-applet .wnck-pager {
+    background: #30343b;
+    color: #191b1f; }
+    .mate-panel-menu-bar PanelApplet.wnck-applet .wnck-pager:hover {
+      background: #354253;
+      color: #4B7AB3; }
+    .mate-panel-menu-bar PanelApplet.wnck-applet .wnck-pager:selected {
+      background: #2d3848;
+      color: #40618b; }
+  .mate-panel-menu-bar PanelToplevel.horizontal.top > grid {
+    border-color: #191b1f; }
+  .mate-panel-menu-bar PanelSeparator {
+    color: #25282d; }
+

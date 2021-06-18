@@ -1,7 +1,22 @@
 theme_dir='/usr/share/themes/MateTheme'
 
-sudo mkdir $theme_dir
+# este usa la base de un tema que ya existe en mate-desktop
+# el tema de llama 'TraditionalOk'
 
+sudo mkdir $theme_dir
+sudo cp -rf /usr/share/themes/TraditionalOk/. $theme_dir/
+
+gtk="$theme_dir/gtk-3.0"
+
+npm run d
+
+sudo cp './gtk-3.0/main.css' "$gtk/mate_theme.css"
+echo '@import url("mate_theme.css");' | sudo tee -a "$gtk/gtk.css"
+
+sudo sed -i "s|TraditionalOk|MateTheme|g" "$theme_dir/index.theme"
+sudo sed -i "s|IconTheme=mate|IconTheme=Zafiro-icons|g" "$theme_dir/index.theme"
+
+# MetaCity Theme
 sudo cp -rf './metacity-1' $theme_dir
 
 color='#1D2126'
