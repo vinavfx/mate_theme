@@ -4,6 +4,11 @@ $text_color: $b70
     background: $b10
     color: $text_color
 
+    // Iconos de Notificacion
+    na-tray-applet *
+        margin-left: 10px
+
+
     #PanelApplet
         color: $text_color
 
@@ -11,10 +16,14 @@ $text_color: $b70
         #clock-applet-button.flat.toggle
             color: $text_color
             border: none
-            &:hover, &:checked
-                background: none
-                color: $base
+            margin-left: 10px
+            background: $b15
+            border-radius: 0
+            border-left: solid 1px mix($base, $b15, 50)
 
+            &:hover, &:checked
+                background: mix($base, $b15, 20)
+                color: white
 
         // Button
         button,

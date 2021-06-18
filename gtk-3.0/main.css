@@ -1,14 +1,22 @@
 .mate-panel-menu-bar {
   background: #191b1f;
   color: #aeb4bc; }
+  .mate-panel-menu-bar na-tray-applet * {
+    margin-left: 10px; }
   .mate-panel-menu-bar #PanelApplet {
     color: #aeb4bc; }
     .mate-panel-menu-bar #PanelApplet #clock-applet-button.flat.toggle {
       color: #aeb4bc;
-      border: none; }
+      border: none;
+      margin-left: 10px;
+      background: #25282d;
+      border-radius: 0;
+      border-left: solid 1px #385170; }
       .mate-panel-menu-bar #PanelApplet #clock-applet-button.flat.toggle:hover, .mate-panel-menu-bar #PanelApplet #clock-applet-button.flat.toggle:checked {
-        background: none;
-        color: #4B7AB3; }
+        background: #2d3848;
+        color: white; }
+    .mate-panel-menu-bar #PanelApplet GtkWindow {
+      background: red; }
     .mate-panel-menu-bar #PanelApplet button,
     .mate-panel-menu-bar #PanelApplet button.toggle,
     .mate-panel-menu-bar #PanelApplet button.flat,
