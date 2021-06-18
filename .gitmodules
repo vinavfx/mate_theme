@@ -1,0 +1,3 @@
+[submodule "WhiteSur"]
+	path = WhiteSur
+	url = https://github.com/fcocc77/WhiteSur-gtk-theme
