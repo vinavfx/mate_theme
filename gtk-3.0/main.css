@@ -15,8 +15,6 @@
       .mate-panel-menu-bar #PanelApplet #clock-applet-button.flat.toggle:hover, .mate-panel-menu-bar #PanelApplet #clock-applet-button.flat.toggle:checked {
         background: #2d3848;
         color: white; }
-    .mate-panel-menu-bar #PanelApplet GtkWindow {
-      background: red; }
     .mate-panel-menu-bar #PanelApplet button,
     .mate-panel-menu-bar #PanelApplet button.toggle,
     .mate-panel-menu-bar #PanelApplet button.flat,
@@ -51,16 +49,14 @@
           background: #232e3d;
           color: white; }
   .mate-panel-menu-bar PanelApplet.wnck-applet .wnck-pager {
-    background: #30343b;
-    color: #191b1f; }
+    min-width: 140px;
+    background: #25282d;
+    color: #76808f; }
     .mate-panel-menu-bar PanelApplet.wnck-applet .wnck-pager:hover {
-      background: #354253;
-      color: #4B7AB3; }
+      background: #30343b; }
     .mate-panel-menu-bar PanelApplet.wnck-applet .wnck-pager:selected {
-      background: #2d3848;
-      color: #40618b; }
-  .mate-panel-menu-bar PanelToplevel.horizontal.top > grid {
-    border-color: #191b1f; }
+      background: #3c4149;
+      color: orange; }
   .mate-panel-menu-bar PanelSeparator {
     color: #25282d; }
 

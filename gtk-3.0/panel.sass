@@ -47,18 +47,14 @@ $text_color: $b70
     // WorkSpace Applet
     PanelApplet.wnck-applet
         .wnck-pager
-            background: $b20
-            color: $b10
+            min-width: 140px
+            background: $b15
+            color: $b50
             &:hover
-                background: mix($base, $b20, 20%)
-                color: $base
+                background: $b20
             &:selected
-                background: mix($base, $b15, 20%)
-                color: mix($base, $b15, 70%)
-
-    PanelToplevel.horizontal.top > grid
-        border-color: $b10
-
+                background: $b25
+                color: orange
 
     PanelSeparator
         color: $b15
