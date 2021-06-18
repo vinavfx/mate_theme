@@ -5,13 +5,13 @@ dark_color_hi='#2E363D'
 base_color='#4B7AB3'
 base_color_hi='#578ED1'
 
-
 # se nececita 'sassc' para installar 'WhiteSur', y esta en el repo 'raven'
 sudo dnf install 'https://pkgs.dyn.su/el8/base/x86_64/raven-release-1.0-1.el8.noarch.rpm'
 git submodule update --init --recursive
 
 # Installa 'WhiteSur'
 sed -i "s|.*theme_color_default.*|\$theme_color_default: $base_color;|g" ./WhiteSur/src/sass/_colors-palette.scss
+sh './WhiteSur-icon/install.sh'
 sh './WhiteSur/install.sh'
 # .......
 
@@ -26,8 +26,6 @@ cp './gtk-3.0/main.css' "$theme_dir/gtk-3.0/mate_theme.css"
 echo '@import url("mate_theme.css");' >> "$theme_dir/gtk-3.0/gtk.css"
 
 sed -i "s|WhiteSur-light|MateTheme|g" "$theme_dir/index.theme"
-sed -i "s|IconTheme=WhiteSur|IconTheme=Zafiro-icons|g" "$theme_dir/index.theme"
-
 
 # MetaCity Theme
 rm -rf "$theme_dir/metacity-1"

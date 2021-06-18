@@ -15,6 +15,8 @@
       .mate-panel-menu-bar #PanelApplet #clock-applet-button.flat.toggle:hover, .mate-panel-menu-bar #PanelApplet #clock-applet-button.flat.toggle:checked {
         background: #2d3848;
         color: white; }
+    .mate-panel-menu-bar #PanelApplet label {
+      color: #aeb4bc; }
     .mate-panel-menu-bar #PanelApplet button,
     .mate-panel-menu-bar #PanelApplet button.toggle,
     .mate-panel-menu-bar #PanelApplet button.flat,

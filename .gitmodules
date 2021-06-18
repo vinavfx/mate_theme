@@ -1,3 +1,6 @@
 [submodule "WhiteSur"]
 	path = WhiteSur
 	url = https://github.com/fcocc77/WhiteSur-gtk-theme
+[submodule "WhiteSur-icon"]
+	path = WhiteSur-icon
+	url = https://github.com/fcocc77/WhiteSur-icon-theme.git
