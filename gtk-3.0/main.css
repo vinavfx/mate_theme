@@ -11,9 +11,9 @@
       margin-left: 10px;
       background: #25282d;
       border-radius: 0;
-      border-left: solid 1px #385170; }
+      border-left: solid 1px #3e5b7f; }
       .mate-panel-menu-bar #PanelApplet #clock-applet-button.flat.toggle:hover, .mate-panel-menu-bar #PanelApplet #clock-applet-button.flat.toggle:checked {
-        background: #2d3848;
+        background: #2f3c4e;
         color: white; }
     .mate-panel-menu-bar #PanelApplet label {
       color: #aeb4bc; }
@@ -36,7 +36,7 @@
       .mate-panel-menu-bar #PanelApplet button.flat.toggle:checked,
       .mate-panel-menu-bar #PanelApplet button.flat.toggle:active {
         background: none;
-        color: #4B7AB3;
+        color: #578ED1;
         border-radius: 0; }
         .mate-panel-menu-bar #PanelApplet button:hover:hover, .mate-panel-menu-bar #PanelApplet button:checked:hover, .mate-panel-menu-bar #PanelApplet button:active:hover,
         .mate-panel-menu-bar #PanelApplet button.toggle:hover:hover,
@@ -48,7 +48,7 @@
         .mate-panel-menu-bar #PanelApplet button.flat.toggle:hover:hover,
         .mate-panel-menu-bar #PanelApplet button.flat.toggle:checked:hover,
         .mate-panel-menu-bar #PanelApplet button.flat.toggle:active:hover {
-          background: #232e3d;
+          background: #253243;
           color: white; }
   .mate-panel-menu-bar PanelApplet.wnck-applet .wnck-pager {
     min-width: 140px;
@@ -58,7 +58,7 @@
       background: #30343b; }
     .mate-panel-menu-bar PanelApplet.wnck-applet .wnck-pager:selected {
       background: #3c4149;
-      color: orange; }
+      color: #578ED1; }
   .mate-panel-menu-bar PanelSeparator {
     color: #25282d; }
 

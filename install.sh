@@ -10,7 +10,7 @@ sudo dnf install 'https://pkgs.dyn.su/el8/base/x86_64/raven-release-1.0-1.el8.no
 git submodule update --init --recursive
 
 # Installa 'WhiteSur'
-sed -i "s|.*theme_color_default.*|\$theme_color_default: $base_color;|g" ./WhiteSur/src/sass/_colors-palette.scss
+sed -i "s|.*theme_color_default.*|\$theme_color_default: $base_color_hi;|g" ./WhiteSur/src/sass/_colors-palette.scss
 sh './WhiteSur-icon/install.sh'
 sh './WhiteSur/install.sh'
 # .......
@@ -19,7 +19,10 @@ rm -rf $theme_dir
 mv "$HOME/.themes/WhiteSur-light" $theme_dir
 rm -rf $HOME/.themes/WhiteSur*
 
+# Estilo que va por encima de 'WhiteSur' original
+sed -i "s|.*\$base:.*|\$base: $base_color_hi|g" './gtk-3.0/palette.sass'
 npm run d
+#
 
 # Modifica algunos datos del tema 'WhiteSur' para adaptarlo a 'MateTheme'
 cp './gtk-3.0/main.css' "$theme_dir/gtk-3.0/mate_theme.css"
