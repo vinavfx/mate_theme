@@ -51,7 +51,6 @@
           background: #253243;
           color: white; }
   .mate-panel-menu-bar PanelApplet.wnck-applet .wnck-pager {
-    min-width: 140px;
     background: #25282d;
     color: #76808f; }
     .mate-panel-menu-bar PanelApplet.wnck-applet .wnck-pager:hover {
