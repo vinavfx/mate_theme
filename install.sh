@@ -10,7 +10,9 @@ sudo dnf install 'https://pkgs.dyn.su/el8/base/x86_64/raven-release-1.0-1.el8.no
 git submodule update --init --recursive
 
 # Installa 'WhiteSur'
-sed -i "s|.*theme_color_default.*|\$theme_color_default: $base_color_hi;|g" ./WhiteSur/src/sass/_colors-palette.scss
+palette='./WhiteSur/src/sass/_colors-palette.scss'
+sed -i "s|.*theme_color_default.*|\$theme_color_default: $base_color_hi;|g" $palette
+sed -i "s|.*theme_color_blue.*|\$theme_color_blue: $base_color_hi;|g" $palette
 sh './WhiteSur-icon/install.sh'
 sh './WhiteSur/install.sh'
 # .......
