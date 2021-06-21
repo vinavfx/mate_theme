@@ -78,6 +78,5 @@ messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive
   messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive-action):hover {
     background-color: #f9fafa; }
   messagedialog .dialog-action-area button:not(.suggested-action):not(.destructive-action):active {
-    background-color: #e6e8ea;
-    color: #191b1f; }
+    background-color: #578ED1; }
 
