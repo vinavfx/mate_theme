@@ -61,13 +61,16 @@
   .mate-panel-menu-bar PanelSeparator {
     color: #191b1f; }
 
-entry:focus {
-  background: white; }
+entry {
+  background: white;
+  border: 1px solid #caced3; }
+  entry:focus {
+    background: white; }
 
 button {
   border-radius: 4px; }
 
-.caja-side-pane > notebook .view {
+.caja-navigation-window .caja-side-pane > notebook .view {
   padding-top: 2px;
   padding-bottom: 2px; }
 

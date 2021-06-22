@@ -3,17 +3,20 @@
 // esto corrige, que al cambiar nombre en un archivo en 'caja'
 // queda sobrepuesto otro texto por encima
 entry
+    background: white
+    border: 1px solid $b80
     &:focus
         background: white
 
 button
     border-radius: 4px
 
-.caja-side-pane
-    > notebook
-        .view
-            padding-top: 2px
-            padding-bottom: 2px
+.caja-navigation-window
+    .caja-side-pane
+        > notebook
+            .view
+                padding-top: 2px
+                padding-bottom: 2px
 
 messagedialog
     .dialog-action-area
