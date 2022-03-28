@@ -5,6 +5,8 @@ dark_color_hi='#2E363D'
 base_color='#4B7AB3'
 base_color_hi='#578ED1'
 
+sudo dnf config-manager --set-enabled powertools
+
 # se nececita 'sassc' para installar 'WhiteSur', y esta en el repo 'raven'
 sudo dnf install 'https://pkgs.dyn.su/el8/base/x86_64/raven-release-1.0-1.el8.noarch.rpm'
 git submodule update --init --recursive
