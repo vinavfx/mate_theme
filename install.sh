@@ -1,14 +1,16 @@
-theme_dir="$HOME/.themes/MateTheme"
+teme_dir="$HOME/.themes/MateTheme"
 
 dark_color='#1D2126'
 dark_color_hi='#2E363D'
 base_color='#4B7AB3'
 base_color_hi='#578ED1'
 
+npm i
+
 sudo dnf config-manager --set-enabled powertools
 
 # se nececita 'sassc' para installar 'WhiteSur', y esta en el repo 'raven'
-sudo dnf install 'https://pkgs.dyn.su/el8/base/x86_64/raven-release-1.0-1.el8.noarch.rpm'
+sudo dnf -y install 'https://pkgs.dyn.su/el8/base/x86_64/raven-release-1.0-1.el8.noarch.rpm'
 git submodule update --init --recursive
 
 # Installa 'WhiteSur'
@@ -45,4 +47,6 @@ sed -i "s|{dark_color_hi}|$dark_color_hi|g" $metacity
 
 sed -i "s|{base_color}|$base_color|g" $metacity
 sed -i "s|{base_color_hi}|$base_color_hi|g" $metacity
+
+sudo dnf -y erase raven-release
 
