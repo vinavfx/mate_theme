@@ -1,7 +1,3 @@
 .undodir/
 session.vim
-node_modules/
-package-lock.json
-temp/
 *.swp
-./WhiteSur/
