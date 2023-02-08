@@ -13,5 +13,5 @@ for pixel in 16 22 24; do
 done
 
 rm -rf $themes_dir/MateTheme
-cp -rf ./MateTheme $themes_dir
+cp -rf ./MateTheme $themes_dir/MateTheme
 
